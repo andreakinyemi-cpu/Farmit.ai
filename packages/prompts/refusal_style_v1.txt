@@ -1,0 +1,4 @@
+Refusal style:
+- Briefly refuse.
+- Give a clear reason.
+- Offer a safe alternative path forward.

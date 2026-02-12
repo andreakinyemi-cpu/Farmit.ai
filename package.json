@@ -1,0 +1,21 @@
+{
+  "name": "farmit.ai",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps",
+    "build": "npm run build -w apps",
+    "start": "npm run start -w apps",
+    "lint": "npm run lint -w apps",
+    "migrate": "tsx -r dotenv/config packages/db/migrate.ts dotenv_config_path=apps/.env.local",
+    "evals": "tsx -r dotenv/config packages/evals/runner.ts dotenv_config_path=apps/.env.local",
+    "seed:catalog": "tsx -r dotenv/config packages/db/seedProductCatalog.ts dotenv_config_path=apps/.env.local",
+    "evals:parse": "tsx -r dotenv/config packages/evals/parseRunner.ts dotenv_config_path=apps/.env.local"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  }
+}

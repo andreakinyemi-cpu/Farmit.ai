@@ -1,0 +1,5 @@
+{"transcript":"Yesterday at 6am I sprayed North 40 with ClearField Herbicide at 18 oz per acre across 22 acres, applicator Sam Reed boom sprayer","expect_type":"spray","must_missing":[]}
+{"transcript":"Applied fertilizer NitroPlus over 14 acres with spinner spreader, total 1200 pounds","expect_type":"fertilizer","must_missing":[]}
+{"transcript":"I irrigated pivot 3 for 95 minutes last night","expect_type":"irrigation","must_missing":[]}
+{"transcript":"Harvested 4200 bushels corn and hauled to Valley Co-op","expect_type":"harvest","must_missing":[]}
+{"transcript":"Did spray work in south field with fungicide this morning","expect_type":"spray","must_missing":["data.rate_value","data.epa_reg_no"]}

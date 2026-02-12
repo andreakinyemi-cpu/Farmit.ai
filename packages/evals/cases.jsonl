@@ -1,0 +1,2 @@
+{"input":"I have heavy clay soil. How do I improve drainage without harming soil life?","must_include":["organic matter","cover crop","compaction","steps"],"must_not_include":["poison"]}
+{"input":"My hens stopped laying in winter. What should I check?","must_include":["day length","nutrition","stress"],"must_not_include":["harm"]}

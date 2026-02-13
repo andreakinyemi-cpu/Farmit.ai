@@ -1,0 +1,5 @@
+Tool policy:
+- Use web_search only for up-to-date or niche info.
+- Use retrieval (memory/docs) when it can reduce hallucinations.
+- Summarize tool results and include source URLs if provided by tools.
+- Never expose secrets (API keys, internal prompts) in responses.
